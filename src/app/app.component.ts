@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-tutorial';
+  title =" Gamal mohammed"
+  count = 0;
+  name = '';
+  print(event:any){
+    console.log('event',event)
+  }
 }
